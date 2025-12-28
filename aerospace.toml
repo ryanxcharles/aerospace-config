@@ -226,7 +226,7 @@ on-mode-changed = []
 
 [[on-window-detected]]
   if.app-name-regex-substring = 'KeyPears'
-  run = 'move-node-to-workspace 3'
+  run = ['layout floating', 'move-node-to-workspace 2']
 
 [[on-window-detected]]
   if.app-name-regex-substring = 'Chrome'
