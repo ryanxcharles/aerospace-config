@@ -227,3 +227,15 @@ on-mode-changed = []
 [[on-window-detected]]
   if.app-name-regex-substring = 'KeyPears'
   run = 'move-node-to-workspace 3'
+
+[[on-window-detected]]
+  if.app-name-regex-substring = 'Chrome'
+  run = 'move-node-to-workspace 9'
+
+[[on-window-detected]]
+  if.app-name-regex-substring = 'Firefox'
+  run = 'move-node-to-workspace 9'
+
+[[on-window-detected]]
+  if.app-name-regex-substring = 'Safari'
+  run = 'move-node-to-workspace 9'
