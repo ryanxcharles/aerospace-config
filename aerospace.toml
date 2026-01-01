@@ -208,6 +208,10 @@ on-mode-changed = []
     alt-left  = 'workspace --wrap-around prev'
     alt-right = 'workspace --wrap-around next'
 
+    # Switch focus between monitors
+    alt-shift-left  = 'focus-monitor left'
+    alt-shift-right = 'focus-monitor right'
+
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 [mode.service.binding]
